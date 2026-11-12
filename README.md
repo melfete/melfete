@@ -1,24 +1,22 @@
-# Hallo, ich bin Saltuk 👋
+# Hallo, ich bin Saltuk
 
-IT-Einsteiger aus Stuttgart mit Abschluss als **Medienassistent für Informatik und Operating** (Macromedia Akademie, 2025).
-Mein Ziel: **Fachinformatiker** für Anwendungsentwicklung oder Systemintegration.
+Ich komme aus Stuttgart und habe 2025 meinen Abschluss als Medienassistent für Informatik und Operating an der Macromedia Akademie gemacht. Mein Ziel ist der Abschluss als Fachinformatiker für Anwendungsentwicklung oder Systemintegration.
 
-- 💻 Am liebsten arbeite ich mit Datenbanken, Webanwendungen und Spielen
-- 🎓 2027 mache ich meinen Realschulabschluss (Schulfremdenprüfung)
-- 🗣️ Deutsch und Türkisch (Muttersprachen), Englisch
+- Am liebsten arbeite ich mit Datenbanken, Webanwendungen und Spielen.
+- 2027 mache ich meinen Realschulabschluss (Schulfremdenprüfung).
+- Sprachen: Deutsch und Türkisch (Muttersprachen), Englisch
 
 ## Projekte
 
-### 🎵 [Artist Quiz – Spotify Higher Lower Game](https://github.com/melfete/artist1)
-Web-App, bei der man rät, welcher Künstler mehr Streams hat. Mit Leaderboard, Künstlerseiten und Music Player.
-Gruppenprojekt (Note 1,7). Später habe ich es allein überarbeitet: Spiellogik auf dem Server, Schutz vor Schummeln, CSRF-Schutz, Prepared Statements und eine neu aufgebaute Datenbank.
-**Technik:** PHP · MySQL · JavaScript · HTML/CSS
-▶️ **Live:** [artistquiz.rf.gd](https://artistquiz.rf.gd/)
+### [Artist Quiz: Spotify Higher Lower Game](https://github.com/melfete/artist1)
+Web-App, bei der man rät, welcher Künstler mehr Fans hat. Mit Leaderboard, Künstlerseiten und einem Song-Player für die aktuellen Charts.
+Das war ein Gruppenprojekt (Note 1,7), das ich später allein überarbeitet habe: Die Spiellogik läuft jetzt auf dem Server, damit niemand schummeln kann. Dazu kamen CSRF-Schutz, Prepared Statements, eine neu aufgebaute Datenbank und Live-Daten über die Deezer- und Wikipedia-API.
+Technik: PHP · MySQL · JavaScript · HTML/CSS
+Live: [artistquiz.rf.gd](https://artistquiz.rf.gd/)
 
-### 🎮 [Void Hunter – 2D-Action-Platformer](https://github.com/melfete/void-hunter)
-Eigenes Spiel mit Wall Jump, Dash, Kampfsystem und drei Gegnertypen mit eigener KI.
-Auf Unity 6 aktualisiert und den Code überarbeitet.
-**Technik:** Unity · C#
+### [Void Hunter: 2D-Action-Platformer](https://github.com/melfete/void-hunter)
+Mein eigenes Spiel mit Wall Jump, Dash, Kampfsystem und drei Gegnertypen mit eigener KI. Ich habe es auf Unity 6 aktualisiert und den Code überarbeitet. Der Windows-Build steht unter Releases zum Download.
+Technik: Unity · C#
 
 ## Kenntnisse
 
@@ -35,4 +33,4 @@ Auf Unity 6 aktualisiert und den Code überarbeitet.
 
 ## Kontakt
 
-📧 saltukk47@gmail.com
+E-Mail: saltukk47@gmail.com
