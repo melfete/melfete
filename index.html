@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saltuk Kalender – Portfolio</title>
+<meta name="description" content="Portfolio von Saltuk Kalender: Void Hunter (Unity, C#) und Artist Quiz (PHP, MySQL).">
+<style>
+  :root{--bg:#0f1115;--card:#171a21;--line:#262a33;--text:#e7e9ee;--muted:#9aa1ad;--accent:#7aa2ff}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  .wrap{max-width:900px;margin:0 auto;padding:0 20px}
+  header{padding:72px 0 40px;border-bottom:1px solid var(--line)}
+  h1{font-size:2.4rem;line-height:1.2;letter-spacing:-.02em}
+  .role{color:var(--muted);font-size:1.1rem;margin-top:6px}
+  .intro{margin-top:20px;max-width:640px}
+  .links{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+  .btn{border:1px solid var(--line);padding:8px 16px;border-radius:8px;color:var(--text);font-size:.95rem}
+  .btn:hover{border-color:var(--accent);text-decoration:none}
+  .btn.primary{background:var(--accent);border-color:var(--accent);color:#0b0d12;font-weight:600}
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:24px}
+  .project{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:24px;margin-bottom:28px}
+  .project h3{font-size:1.4rem}
+  .meta{color:var(--muted);font-size:.9rem;margin:2px 0 14px}
+  .shots{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .shots img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;border:1px solid var(--line);display:block}
+  ul{padding-left:20px} li{margin:4px 0}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+  .tag{font-size:.8rem;background:#20242d;border:1px solid var(--line);padding:2px 10px;border-radius:99px;color:#c9ceda}
+  .skills{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+  .skills div{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .skills b{display:block;margin-bottom:4px}
+  .skills span{color:var(--muted);font-size:.95rem}
+  footer{padding:40px 0 60px;color:var(--muted);font-size:.9rem}
+  @media(max-width:600px){h1{font-size:1.9rem}.shots{grid-template-columns:1fr 1fr}.shots img:nth-child(3){display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Saltuk Kalender</h1>
+  <p class="role">Medienassistent für Informatik und Operating · Stuttgart</p>
+  <p class="intro">Ich suche einen Einstieg in die IT, gerne in der Anwendungsentwicklung oder Systemintegration. Hier zeige ich zwei Projekte, die ich gebaut und überarbeitet habe: ein 2D-Spiel in Unity und eine PHP-Web-App mit Datenbank und externen APIs.</p>
+  <div class="links">
+    <a class="btn primary" href="mailto:saltukk47@gmail.com">Kontakt</a>
+    <a class="btn" href="https://github.com/melfete">GitHub</a>
+  </div>
+</header>
+
+<section>
+  <h2>Projekte</h2>
+
+  <article class="project">
+    <h3>Void Hunter</h3>
+    <p class="meta">2D-Action-Platformer · Einzelprojekt</p>
+    <p>Man kämpft sich durch eine dunkle Welt voller Schattenkreaturen bis zu einem Portal am Ende des Levels. Ein Durchlauf dauert unter zwei Minuten.</p>
+    <div class="shots">
+      <img src="img/menu.jpg" alt="Void Hunter Hauptmenü" loading="lazy">
+      <img src="img/combat.jpg" alt="Void Hunter Kampf" loading="lazy">
+      <img src="img/enemies.jpg" alt="Void Hunter Gegner" loading="lazy">
+    </div>
+    <ul>
+      <li>Spielersteuerung mit Wall Jump, Dash, Nahkampf, Projektilen und Heilung</li>
+      <li>Drei Gegnertypen mit eigener KI (fliegend, verfolgend, Fernkampf)</li>
+      <li>Code überarbeitet: Physik in <code>FixedUpdate</code>, Events zur Entkopplung, Kamera mit <code>SmoothDamp</code></li>
+      <li>Hauptmenü, Pausemenü mit Lautstärke, Game Over und Ende mit Kamerafahrt</li>
+    </ul>
+    <div class="tags"><span class="tag">Unity 6</span><span class="tag">C#</span><span class="tag">URP 2D</span><span class="tag">Tilemaps</span><span class="tag">Animator</span></div>
+    <div class="links">
+      <a class="btn primary" href="https://github.com/melfete/void-hunter/releases">Spiel herunterladen (Windows)</a>
+      <a class="btn" href="https://github.com/melfete/void-hunter">Code auf GitHub</a>
+    </div>
+  </article>
+
+  <article class="project">
+    <h3>Artist Quiz</h3>
+    <p class="meta">PHP-Web-App · Gruppenprojekt (3 Personen), danach von mir komplett überarbeitet</p>
+    <p>Higher-Lower-Spiel: Welcher Künstler hat mehr Fans? Dazu Künstlerseiten, Leaderboard und ein Song-Player mit 30-Sekunden-Vorschauen.</p>
+    <div class="shots">
+      <img src="img/PreviewStartseite.jpg" alt="Artist Quiz Startseite" loading="lazy">
+      <img src="img/PreviewHigherLowerGame.jpg" alt="Artist Quiz Higher Lower Spiel" loading="lazy">
+      <img src="img/PreviewSongPlayer.jpg" alt="Artist Quiz Song-Player" loading="lazy">
+    </div>
+    <ul>
+      <li>Mein Teil im Team: der Song-Player</li>
+      <li>Live-Daten über die Deezer- und Wikipedia-API, mit Caching in der Datenbank</li>
+      <li>Sicherheit: Prepared Statements, CSRF-Tokens, Spiellogik auf dem Server</li>
+      <li>Datenbank normalisiert: neun Tabellen zu zwei zusammengeführt</li>
+    </ul>
+    <div class="tags"><span class="tag">PHP 8</span><span class="tag">MySQL</span><span class="tag">JavaScript</span><span class="tag">HTML/CSS</span><span class="tag">REST-APIs</span></div>
+    <div class="links">
+      <a class="btn primary" href="https://artistquiz.rf.gd/">Live ansehen</a>
+      <a class="btn" href="https://github.com/melfete/artist1">Code auf GitHub</a>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2>Kenntnisse</h2>
+  <div class="skills">
+    <div><b>Programmierung</b><span>C#, PHP, JavaScript, HTML, CSS</span></div>
+    <div><b>Datenbanken</b><span>MySQL / MariaDB, SQL</span></div>
+    <div><b>Tools</b><span>Unity, Git &amp; GitHub, XAMPP, VS Code</span></div>
+    <div><b>Sprachen</b><span>Deutsch, Türkisch (Muttersprachen)</span></div>
+  </div>
+</section>
+
+<footer>
+  <p>Saltuk Kalender · <a href="mailto:saltukk47@gmail.com">saltukk47@gmail.com</a> · <a href="https://github.com/melfete">github.com/melfete</a></p>
+</footer>
+
+</div>
+</body>
+</html>
