@@ -6,6 +6,8 @@ Ich komme aus Stuttgart und habe 2025 meinen Abschluss als Medienassistent für 
 - 2027 mache ich meinen Realschulabschluss (Schulfremdenprüfung).
 - Sprachen: Deutsch und Türkisch (Muttersprachen), Englisch
 
+**Portfolio:** [melfete.github.io/melfete](https://melfete.github.io/melfete/)
+
 ## Projekte
 
 ### [Artist Quiz: Spotify Higher Lower Game](https://github.com/melfete/artist1)
@@ -33,4 +35,5 @@ Technik: Unity · C#
 
 ## Kontakt
 
-E-Mail: saltukk47@gmail.com
+E-Mail: saltukk47@gmail.com  
+Portfolio: [melfete.github.io/melfete](https://melfete.github.io/melfete/)
